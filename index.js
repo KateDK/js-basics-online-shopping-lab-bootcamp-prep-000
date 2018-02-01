@@ -66,7 +66,7 @@ function removeFromCart(item) {
           return cart;
         }
     if(cart[i].hasOwnProperty(item)){
-      cart.splice(cart[i],1);
+      cart.splice([i],1);
       return cart;
     }
   }
